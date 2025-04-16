@@ -5,30 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Página Principal </title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header class="p-5" >
-        <h2>Cabeçalho</h2>
+        
 
         <nav class="container d-flex justify-content-between align-items-center">
             <img src="img/logo.png" alt="Logotipo da Nação Alviverde" class="nav-img" loading="lazy" > 
             <ul class="nav mt-5">
-                <li class="nav-item"> <a href="#inicio"> Início </a> </li>
-                <li class="nav-item"> <a href="#galeria"> Galeria </a> </li>
-                <li class="nav-item"> <a href="#contato"> Contato </a> </li>
+                <li class="nav-item"> <a class href="nav-link" href="#inicio"> Início </a> </li>
+                <li class="nav-item"> <a class href="nav-link" href="#galeria"> Galeria </a> </li>
+                <li class="nav-item"> <a class href="navlink"  href="#contato"> Contato </a> </li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h2>Corpo da página</h2>
+    <main class="container my-5">
         <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
 
-        </section>
+        <h2>Boas-vindas!</h2>
+        <img src="img/logo-2.png" alt="Logotipo da Tropicália"  class="mb-3" width="563" height="278" loading="lazy" >
+        <a href="#tropicalia" class="btn btn-primary btn-lg botao-inicio fw-semibold" > Quero conhecer! </a>
+    </div>
+</div>
+</section>
 
-        <section id="aDefinir" class="my-5 pt-6 secao-nação alviverde">
+
+        <section id="Nação-Alviverde" class="my-5 pt-6 secao-nação alviverde">
          </div>
              <div class="col-5">
                 <h2>Oque é a Nação Alviverde?<h2>
@@ -39,21 +47,16 @@
         
             </section>
 
-        <section id="galeria">
-            <h2 class="text=center pt-5"> Galeria</h2>
-            <div class="container p-3 mt-3 fundo-galeria">
-            <div class="col=md-4"  
-            <img src="Imagens/OIP.jpg"  alt="Imagem do Palmeirsd"
-            class="img-fluid rounded-5" Inading="lazy"
-
-            </div>
-            <div class="col-md-4"
-            <img src="Imagens/palestra-italia-palmeiras-wallpaper-preview.jpg"
-            alt="Imagem do Palmeiras Coroado" class="img-fluid  rounded-5"
-            loading="lazy"
-
-        </div>
-        <div class="col-md-4"
+            <section id="galeria">
+                <h2 class="text-lestra-italia-palmeiras-wallpaper-preview.jpg"> Galeria </h2>
+                <div class="container p-3 mt-3 fundo-galeria">
+                    <div class="col-md-4">
+                        <img src="iImagens/palestra-italia-palmeiras-wallpaper-preview.jpg" alt="Imagens/R.jpg" class="Imagens/soccer-sociedade-esportiva-palmeiras-logo-wallpaper-preview (1).jpg" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/lossy-page1-640px-Os_Mutantes_2.tif.jpg" alt="Imagem do grupo Os Mutantes" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                </div>
 
         </section>
 
@@ -85,12 +88,12 @@
 
     </main>
     <footer class="text-center p-3 fst-italic">
-        <h2>Rodapé</h2>
+        
         <p>Acesse nossas redes:</p>
         <i class="bi bi-whatsapp"></i>
         <i class="bi bi-instagram"></i>
         <i class="bi bi-tiktok"></i>
-        <p class="mt-3">Desenvolvido por Gerson Cesar Grobe de Miranda. Projeto fictício sem fins comerciais</p>
+        <p class="mt-3">Desenvolvido por Natan Coutinho Lomba. Projeto fictício sem fins comerciais</p>
     </footer>
 </body>
 
