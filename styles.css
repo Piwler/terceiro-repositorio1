@@ -15,13 +15,13 @@ body {
 }
 
 #contato {
-    background: var(--cor-rincipal);
+    background: var(--cor-principal);
     background-size: cover;
     padding: 4rem 0;
 }
 
 .formulario{
-    background-color: var(--branco);
+    background-color: var(--cor1);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -29,11 +29,11 @@ body {
 }
 
 .formulario button {
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     border: none;
     font-weight: bold;
 }
 
 .form-control {
-    background-color: var(--cor2);
+    background-color: var(--cor3);
 }
