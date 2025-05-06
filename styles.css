@@ -150,3 +150,18 @@ flex-direction: column
 .alto-contraste .nav-link {
     color: var(--branco);
 }
+.alto-contraste .botao-inicio
+.alto-contraste .formulario button
+.alto-contraste .btn-primary{
+    background-color: var(--laranja-claro);
+    color: var(--preto);
+}
+.alto-contraste #Nação-Alviverde {
+    background: none;
+}
+.alto-contraste #galeria {
+    background-color: var(--preto);
+}
+.alto-contraste .fundo-galeria {
+    background: 
+}
